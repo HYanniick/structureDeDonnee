@@ -156,7 +156,7 @@ int main(void) {
     TrieNode *root = getNode();
     char str[50];
 
-    load_from_file(root, "C:\\Users\\HAN\\CLionProjects\\eval\\annuaire.csv");
+    load_from_file(root, "..\\annuaire.csv");
     search(root, "Mehdi");
     search(root, "Steven");
     insert(root, "Dylan", "0612345678", "dylan@gmail.com");
